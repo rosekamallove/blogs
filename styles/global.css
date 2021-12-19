@@ -31,8 +31,13 @@ pre {
   background-color: #fafafa;
   padding: 20px;
 }
-code {
+pre > code {
   background-color: #fafafa;
+}
+code {
+  background-color: #e8e8e8;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 img {
