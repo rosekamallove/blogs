@@ -1,8 +1,8 @@
-import styles from "./layout.module.css";
-import utilStyles from "./utils.module.css";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
+import utilStyles from "../styles/utils.module.css";
+import styles from "./layout.module.css";
 
 const name = "Rose Kamal Love";
 export const siteTitle = "Next.js Sample Website";
