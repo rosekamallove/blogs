@@ -81,14 +81,11 @@ date: "2021-12-19"
 
 ---
 
-<p align="center">
-  <img src="https://c.tenor.com/IJwsfw7ToiQAAAAM/wait-what.gif" align="center"/>
-</p>
+![Wait a Minute](https://c.tenor.com/IJwsfw7ToiQAAAAM/wait-what.gif)
 
-<p align="center">
- You Guys don't even know how to <b>speak</b><br/>
- So C++ is going to be a way for you to learn how to <b>communicate</b> with the processor
-</p>
+You Guys don't even know how to **speak**
+
+So C++ is going to be a way for you to learn how to **communicate** with the processor
 
 ---
 

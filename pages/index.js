@@ -47,14 +47,6 @@ export default function Home({ allPostsData }) {
             Twitter
           </a>
         </p>
-        <p>
-          ( I followed the Next.js{" "}
-          <a href="https://nextjs.org/learn/basics/create-nextjs-app">
-            Learning path
-          </a>{" "}
-          to build this simple but website with an effective learning
-          experience)
-        </p>
       </section>
 
       {/* Blogs Section */}

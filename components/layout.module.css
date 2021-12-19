@@ -1,7 +1,7 @@
 .container {
-  max-width: 36rem;
+  max-width: 80%;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 1.5rem auto 3rem;
 }
 
 .header {
@@ -12,4 +12,12 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    font-size: 110%;
+    margin: 0.75rem auto 1.5rem;
+    text-align: justify;
+  }
 }

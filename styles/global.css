@@ -21,6 +21,12 @@ a:hover {
   text-decoration: underline;
 }
 
+pre {
+  overflow-x: auto;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
 img {
   max-width: 100%;
   display: block;
