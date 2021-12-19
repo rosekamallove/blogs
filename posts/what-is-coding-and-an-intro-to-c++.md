@@ -1,5 +1,5 @@
 ---
-title: "What is coding & and intro t0 C++"
+title: "What is Coding & and an intro to C++"
 date: "2021-12-19"
 ---
 
