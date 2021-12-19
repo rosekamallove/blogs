@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+.IOLOGO {
+  margin-right: 5px;
+  font-size: 70%;
+}
+
 a:hover {
   text-decoration: underline;
 }

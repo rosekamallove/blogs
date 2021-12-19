@@ -4,6 +4,13 @@ import Date from "../components/date";
 import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import utilStyles from "../styles/utils.module.css";
+import {
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoGlobeOutline,
+  IoLogoTwitter,
+} from "react-icons/io5";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -24,28 +31,14 @@ export default function Home({ allPostsData }) {
       {/* User Bio Section */}
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I am{" "}
+          Hi, I am Rose Kamal Love
           <a href="https://rosekamallove.vercel.app" target="_blank">
-            Rose Kamal Love
+            {" "}
+            (<IoGlobeOutline className="IOLOGO" />
+            Website)
           </a>{" "}
           a friendly ambivert who loves writing software, with a crave to create
-          music and yeah I take photos too. <br />
-          <br />
-          Connect with me on{" "}
-          <a
-            href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-          {" | "}
-          <a href="https://github.com/rosekamallove" target="_blank">
-            GitHub
-          </a>
-          {" | "}
-          <a href="https://twitter.com/RoseKamalLove1/" target="_blank">
-            Twitter
-          </a>
+          music and yeah I take photos too.
         </p>
       </section>
 
@@ -65,6 +58,34 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+      </section>
+
+      {/* Connect Section */}
+      <section>
+        Connect with me on:
+        <br />
+        <a
+          href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/"
+          target="_blank"
+        >
+          <IoLogoLinkedin className="IOLOGO" />
+          LinkedIn
+        </a>
+        <br />
+        <a href="https://github.com/rosekamallove" target="_blank">
+          <IoLogoGithub className="IOLOGO" />
+          GitHub
+        </a>
+        <br />
+        <a href="https://twitter.com/RoseKamalLove1/" target="_blank">
+          <IoLogoTwitter className="IOLOGO" />
+          Twitter
+        </a>
+        <br />
+        <a href="https://instagram.com/rosekamallove" target="_blank">
+          <IoLogoInstagram className="IOLOGO" />
+          Instagram
+        </a>
       </section>
     </Layout>
   );
