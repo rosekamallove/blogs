@@ -26,6 +26,9 @@ pre {
   background-color: #fafafa;
   padding: 20px;
 }
+code {
+  background-color: #fafafa;
+}
 
 img {
   max-width: 100%;
