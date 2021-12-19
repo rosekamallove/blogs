@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import styles from "./layout.module.css";
 
 const name = "Rose Kamal Love";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Blogs - Rose Kamal Love";
 
 export default function Layout({ children, home }) {
   return (
