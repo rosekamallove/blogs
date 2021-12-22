@@ -17,9 +17,13 @@ a {
   text-decoration: none;
 }
 
-.IOLOGO {
+.IOLOGO1 {
   margin-right: 5px;
   font-size: 70%;
+}
+.IOLOGO {
+  margin-right: 20px;
+  font-size: 120%;
 }
 
 a:hover {
@@ -37,20 +41,33 @@ pre > code {
 }
 code {
   border: 1px solid #cccccc;
-  padding: 4px;
+  padding: 2px;
   border-radius: 4px;
+}
+
+blockquote {
+  border-left: 5px solid #000;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  margin-left: 0;
+  font-size: 110%;
+  border-radius: 5px;
 }
 
 hr {
   border: 1px solid #f2f2f2;
   background-color: #e8e8e8;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 20px;
 }
 
 img {
+  align-items: center;
   max-width: 100%;
   display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {

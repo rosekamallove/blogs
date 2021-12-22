@@ -33,12 +33,31 @@ export default function Home({
           Hi, I am Rose Kamal Love
           <a href="https://rosekamallove.vercel.app" target="_blank">
             {" "}
-            (<IoGlobeOutline className="IOLOGO" />
+            (<IoGlobeOutline className="IOLOGO1" />
             Website)
           </a>{" "}
           a friendly ambivert who loves writing software, with a crave to create
           music and yeah I take photos too.
         </p>
+      </section>
+
+      {/* Connect Section */}
+      <section>
+        <a
+          href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/"
+          target="_blank"
+        >
+          <IoLogoLinkedin className="IOLOGO" />
+        </a>
+        <a href="https://github.com/rosekamallove" target="_blank">
+          <IoLogoGithub className="IOLOGO" />
+        </a>
+        <a href="https://twitter.com/RoseKamalLove1/" target="_blank">
+          <IoLogoTwitter className="IOLOGO" />
+        </a>
+        <a href="https://instagram.com/rosekamallove" target="_blank">
+          <IoLogoInstagram className="IOLOGO" />
+        </a>
       </section>
 
       {/* Blogs Section */}
@@ -57,34 +76,6 @@ export default function Home({
             </li>
           ))}
         </ul>
-      </section>
-
-      {/* Connect Section */}
-      <section>
-        Connect with me on:
-        <br />
-        <a
-          href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/"
-          target="_blank"
-        >
-          <IoLogoLinkedin className="IOLOGO" />
-          LinkedIn
-        </a>
-        <br />
-        <a href="https://github.com/rosekamallove" target="_blank">
-          <IoLogoGithub className="IOLOGO" />
-          GitHub
-        </a>
-        <br />
-        <a href="https://twitter.com/RoseKamalLove1/" target="_blank">
-          <IoLogoTwitter className="IOLOGO" />
-          Twitter
-        </a>
-        <br />
-        <a href="https://instagram.com/rosekamallove" target="_blank">
-          <IoLogoInstagram className="IOLOGO" />
-          Instagram
-        </a>
       </section>
     </Layout>
   );

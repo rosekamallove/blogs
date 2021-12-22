@@ -3,7 +3,7 @@ title: "What is Coding & and an intro to C++"
 date: "2021-12-19"
 ---
 
-### Coding on a very High Level:
+## Coding on a very High Level:
 
 **What is Coding / Programming?**
 

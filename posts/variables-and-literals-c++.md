@@ -3,8 +3,6 @@ title: "Varibales, Literals and Datatypes in C++"
 date: "2021-12-21"
 ---
 
-## C++ Variables, Literals and Constants
-
 Today we'll learn about variables, literals and constants in C++ with the help of examples
 
 ### C++ Variable
