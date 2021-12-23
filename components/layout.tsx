@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import styles from "./layout.module.css";
 
 const name = "Rose Kamal Love";
-export const siteTitle = "Blogs - Rose Kamal Love";
+export const siteTitle = "Rose Kamal Love - Blogs";
 
 export default function Layout({
   children,
@@ -18,10 +18,7 @@ export default function Layout({
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="My (Rose Kamal Love) Blogs" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(

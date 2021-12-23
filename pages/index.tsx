@@ -11,6 +11,7 @@ import {
   IoGlobeOutline,
   IoLogoTwitter,
 } from "react-icons/io5";
+import Blogs from "../components/blogs";
 
 export default function Home({
   allPostsData,
@@ -61,6 +62,7 @@ export default function Home({
       </section>
 
       {/* Blogs Section */}
+      <Blogs isIndex={true} />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blogs</h2>
         <ul className={utilStyles.list}>
