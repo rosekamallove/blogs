@@ -23,13 +23,13 @@ There are three forms of `if...else` statements in C++.
 
 The syntax of `if` statement is:
 
-```cpp
-if(condition) {
-    /* body of if statement
-     *
-     * The code we want the computer to execute
-     * when this condition is true is written here
-     */
+```js
+if (condition) {
+  /* body of if statement
+   *
+   * The code we want the computer to execute
+   * when this condition is true is written here
+   */
 }
 ```
 
