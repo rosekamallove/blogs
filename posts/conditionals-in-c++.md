@@ -95,7 +95,6 @@ else {
 ```
 
 ![How if-else Statement works](https://cdn.programiz.com/cdn/farfuture/PsBB88lS1d8FUx01uVaGejDmfEeulxv5HRjyNCJpPRk/mtime:1592457238/sites/tutorial2program/files/cpp-if-else-working.png)
-[How if-else Statement works](https://cdn.programiz.com/cdn/farfuture/PsBB88lS1d8FUx01uVaGejDmfEeulxv5HRjyNCJpPRk/mtime:1592457238/sites/tutorial2program/files/cpp-if-else-working.png)
 
 ---
 
@@ -206,3 +205,130 @@ int main() {
   cout << "This line is always printed.";
 }
 ```
+
+## Nested If...else
+
+Sometimes, we need to use an `if` statement inside another `if` statement. This is known as nested `if` statement.
+
+Think of it as multiple layers of `if` statements. There is a first, outer `if` statement, and inside it is another, inner `if` statement. Its syntax is:
+
+```cpp
+// outer if statement
+if (condition1) {
+
+  // statements
+
+  // inner if statement
+  if (condition2) {
+    // statements
+  }
+}
+```
+
+> **Notes:**
+>
+> - We can add `else` and `else if` statements to the inner `if` statement as required
+> - The inner `if` statement can also be inserted inside the outer `else` or `else if` statements (if they exist).
+> - We can nest multiple layers of `if` statements.
+
+### Example Nested if
+
+```cpp
+// C++ program to find if an integer is positive, negative or zero
+// using nested if statements
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int num;
+
+  cout << "Enter an integer: ";
+   cin >> num;
+
+  // outer if condition
+  if (num != 0) {
+
+    // inner if condition
+    if (num > 0) {
+      cout << "The number is positive." << endl;
+    }
+    // inner else condition
+    else {
+      cout << "The number is negative." << endl;
+    }
+  }
+  // outer else condition
+  else {
+    cout << "The number is 0 and it is neither positive nor negative." << endl;
+  }
+
+  cout << "This line is always printed." << endl;
+
+  return 0;
+}
+```
+
+**Output 1**
+
+```
+Enter an integer: 35
+The number is positive.
+This line is always printed.
+```
+
+**Output 2**
+
+```
+Enter an integer: -35
+The number is negative.
+This line is always printed.
+```
+
+**Output 3**
+
+```
+Enter an integer: 0
+The number is 0 and it is neither positive nor negative.
+This line is always printed.
+```
+
+In the above example,
+
+- We take an integer as an input from the user and store it in the variable `num`.
+- We then use an `if...else` statement to check whether num is not equal to **0**.
+  - if `true`, then the inner `if...else` statement is executed.
+  - if `false`, we print that the number is negative.
+
+> **Note:** As you can see, nested `if...else` makes your logic complicated. I possible, you should always try to avoid nested `if..else`
+
+### Body of if...else with only one Statement
+
+If the body of `if...else` has only one statement, you can omit `{ }` in the program. For example, you can replace
+
+```cpp
+int number = 5;
+
+if (number > 0) {
+  cout << "The number is positive." << endl;
+}
+else {
+  cout << "The number is negative." << endl;
+}
+```
+
+with
+
+```cpp
+int number = 5;
+
+if (number > 0)
+  cout << "The number is positive." << endl;
+else
+  cout << "The number is negative." << endl;
+```
+
+The ouput of both the programs will be the same
+
+> **Note:** Although it's not necessary to use `{ }` if the body of if...else has only one statement, using `{ }` makes your code more readable.
