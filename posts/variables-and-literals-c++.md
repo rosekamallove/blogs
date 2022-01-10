@@ -1,5 +1,5 @@
 ---
-title: "Varibales, Literals and Datatypes in C++"
+title: "Variables, Literals and Datatypes in C++"
 date: "2021-12-21"
 ---
 
